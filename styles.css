@@ -10,8 +10,10 @@
 }
 
 body {
-  background-color: lightgray;
+  background-color: darkgray;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /* .circle {
   border-radius: 50%;
@@ -21,3 +23,13 @@ body {
   opacity: 0;
   animation: scaleIn 4s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32);
 } */
+
+#timer {
+  border: solid black;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+}
